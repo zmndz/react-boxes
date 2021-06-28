@@ -1,13 +1,21 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  color: #fff;
+  height: 100vh;
+  
+  background: rgba(20,22,25,1);
+  background: -moz-linear-gradient(top, rgba(20,22,25,1) 0%, rgba(41,46,53,1) 10%, rgba(41,46,53,1) 90%, rgba(20,22,25,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(20,22,25,1)), color-stop(10%, rgba(41,46,53,1)), color-stop(90%, rgba(41,46,53,1)), color-stop(100%, rgba(20,22,25,1)));
+  background: -webkit-linear-gradient(top, rgba(20,22,25,1) 0%, rgba(41,46,53,1) 10%, rgba(41,46,53,1) 90%, rgba(20,22,25,1) 100%);
+  background: -o-linear-gradient(top, rgba(20,22,25,1) 0%, rgba(41,46,53,1) 10%, rgba(41,46,53,1) 90%, rgba(20,22,25,1) 100%);
+  background: -ms-linear-gradient(top, rgba(20,22,25,1) 0%, rgba(41,46,53,1) 10%, rgba(41,46,53,1) 90%, rgba(20,22,25,1) 100%);
+  background: linear-gradient(to bottom, rgba(20,22,25,1) 0%, rgba(41,46,53,1) 10%, rgba(41,46,53,1) 90%, rgba(20,22,25,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#141619', endColorstr='#141619', GradientType=0 );
+    
 }
+

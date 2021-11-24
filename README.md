@@ -1,4 +1,4 @@
-react-box is grid box based on zoom video confrence look and feel
+react-box is grid box, based on zoom video confrence's look and feel
 
 # Getting Started with Create React App
 
